@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5,
       position: relative; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 16px;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px; }
@@ -544,3 +544,5 @@ textarea {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    
