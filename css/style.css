@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5,
 .text-primary {
   color: #335487 !important; }
 
+.img-title {
+  height: 175px;
+  margin-bottom: 300px; }
+
 .ftco-navbar-light {
   background: transparent !important;
   position: absolute;
@@ -132,7 +136,7 @@ h1, h2, h3, h4, h5,
   background-repeat: no-repeat; }
 
 .ftco-cover {
-  background-position: right center; }
+  background-position: left; }
   
   .ftco-cover .ftco-heading {
     font-size: 45px;
