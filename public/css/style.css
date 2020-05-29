@@ -12,10 +12,10 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #335487 ; }
+  color: #575C48 ; }
   a:hover {
     text-decoration: none;
-    color: #335487 ; }
+    color: #575C48 ; }
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
@@ -24,10 +24,10 @@ h1, h2, h3, h4, h5,
   color: #000000   ; }
 
 .text-primary {
-  color: #335487 !important; }
+  color: #575C48!important; }
 
 .img-title {
-  height: 175px;
+  height: 250px;
   margin-bottom: 300px; }
 
 .ftco-navbar-light {
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5,
           display: none; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color:#335487!important;
+    color:#575C48!important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5,
         padding-right: 0 !important; } }
     .ftco-navbar-light.scrolled .navbar-toggler {
       border: none;
-      color: #335487 !important;
+      color: #575C48 !important;
       border-color: rgba(0, 0, 0, 0.5) !important;
       cursor: pointer;
       padding-right: 10px;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5,
       padding-bottom: 0.7rem !important;
       color: #000 !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
-        color: #335487 !important; }
+        color: #575C48 !important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
       -webkit-transition: .3s all ease-out;
@@ -136,8 +136,7 @@ h1, h2, h3, h4, h5,
   background-repeat: no-repeat; }
 
 .ftco-cover {
-  background-position: left; }
-  
+  background-position: center center; }
   .ftco-cover .ftco-heading {
     font-size: 45px;
     line-height: 1.34;
@@ -223,12 +222,12 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: none;
     box-shadow: none; }
   .btn.btn-primary {
-    background: #335487;
-    border-color: #335487;
+    background: #575C48;
+    border-color: #575C48;
     color: #fff; }
     .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
-      border-color: #1265ff;
-      background: #1265ff; }
+      border-color: #575C48;
+      background: #575C48; }
   .btn.btn-outline-white {
     border-color: rgba(255, 255, 255, 0.2);
     background: none; }
