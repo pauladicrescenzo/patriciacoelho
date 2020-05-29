@@ -26,18 +26,34 @@ h1, h2, h3, h4, h5,
 .text-primary {
   color: #575C48!important; }
 
+#section-home {
+  background-image: url(../images/bg-home.jpg); 
+  background-size: contain; }
+  @media screen and (max-width: 960px) {
+    #section-home {
+      background-image: url(../images/bg-home.jpg); 
+      background-size: contain; }
+   }
+   @media screen and (max-width: 768px) {
+    #section-home {
+      background-image: url(../images/banner-768.jpg); 
+      background-size: contain; }
+}
+
 .img-title {
   height: 250px;
   margin-bottom: 300px; }
   @media screen and (max-width: 960px) {
     .img-title {
       height: 220px;
-      margin-bottom: 350px; }
+      margin-bottom: 350px;
+      background-size: cover; }
    }
    @media screen and (max-width: 768px) {
     .img-title {
       height: 200px;
-      margin-bottom: 400px; }
+      margin-bottom: 400px;
+      background-size: cover; }
    }
 
 .ftco-navbar-light {
@@ -146,7 +162,7 @@ h1, h2, h3, h4, h5,
   background-repeat: no-repeat; }
 
 .ftco-cover {
-  background-position: left; }
+  background-position: center; }
   .ftco-cover .ftco-heading {
     font-size: 45px;
     line-height: 1.34;
@@ -201,10 +217,10 @@ h1, h2, h3, h4, h5,
     bottom: -100px; }
     @media screen and (max-width: 960px) {
       .ftco-slant:after {
-        bottom: -150px; } }
+        bottom: -45px; } }
     @media screen and (max-width: 768px) {
       .ftco-slant:after {
-        bottom: -170px; } }
+        bottom: -30px; } }
   .ftco-slant.ftco-slant-white:after {
     background: #fff; }
   .ftco-slant.ftco-slant-dark:after {
