@@ -29,6 +29,16 @@ h1, h2, h3, h4, h5,
 .img-title {
   height: 250px;
   margin-bottom: 300px; }
+  @media screen and (max-width: 960px) {
+    .img-title {
+      height: 220px;
+      margin-bottom: 350px; }
+   }
+   @media screen and (max-width: 768px) {
+    .img-title {
+      height: 200px;
+      margin-bottom: 400px; }
+   }
 
 .ftco-navbar-light {
   background: transparent !important;
@@ -136,7 +146,7 @@ h1, h2, h3, h4, h5,
   background-repeat: no-repeat; }
 
 .ftco-cover {
-  background-position: center center; }
+  background-position: left; }
   .ftco-cover .ftco-heading {
     font-size: 45px;
     line-height: 1.34;
