@@ -607,11 +607,20 @@ input, select, textarea {
 		
 	}
 
+	@media screen and (max-width: 3000px) {
+
+		.icon{
+			max-width: 70px;
+			padding-top: 1rem;
+		}
+
+	}
+
 	@media screen and (max-width: 1680px) {
 
 		.icon{
-			max-width: 50px;
-			padding-top: 1rem;
+			max-width: 60px;
+			padding-top: 0.75rem;
 		}
 
 	}
@@ -620,7 +629,7 @@ input, select, textarea {
 
 		.icon{
 			max-width: 50px;
-			padding-top: 1rem;
+			padding-top: 0.75rem;
 		}
 
 	}
